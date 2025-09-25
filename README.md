@@ -1,5 +1,5 @@
 
-# Github Actions testing for angular deployment
+# Github Actions testing for Angular deployment
 
 This project was made to learn github actions. The final website is just the base Angular template.
 
