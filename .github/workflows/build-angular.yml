@@ -2,7 +2,7 @@ name: Build Angular App
 
 on:
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build-angular:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Setup Node Js
-        uses: actions/setup-node@v5.0.0
+        uses: actions/setup-node@v5
         with:
           node-version: 22.x
 
