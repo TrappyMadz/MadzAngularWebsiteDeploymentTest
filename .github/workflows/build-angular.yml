@@ -1,4 +1,4 @@
-name: Build Angular App
+name: Test Angular App
 
 on:
   pull_request:
@@ -26,11 +26,5 @@ jobs:
 
       - name: Build
         run:  npm run build -- --base-href /MadzAngularWebsiteDeploymentTest/
-
-      - name: Deploy to Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/AngularDeploymentTest/browser
         
     
