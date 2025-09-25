@@ -2,7 +2,7 @@ name: Build Angular App
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: '**'
 
 jobs:
   build-angular:
